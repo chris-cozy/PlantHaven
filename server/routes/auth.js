@@ -4,6 +4,6 @@ import { appendFile } from "fs";
 
 const router = express.Router();
 
-appendFile.post("/login", login);
+router.post("/login", login);
 
 export default router;
