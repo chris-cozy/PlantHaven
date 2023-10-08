@@ -16,6 +16,11 @@ import { register } from "./controllers/auth.js";
 import { verifyToken } from "./middleware/auth.js";
 import { createPost } from "./controllers/posts.js";
 
+/**IMPORTING MOCK DATA */
+import User from "./models/User.js";
+import Post from "./models/Post.js";
+import { users, posts } from "./data/index.js";
+
 /** CONFIGURATIONS **/
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -60,5 +65,9 @@ mongoose
   })
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+
+    /**INSERT MOCK DATA (Do this only once)*/
+    // User.insertMany(users);
+    // Posts.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect.`));
