@@ -66,8 +66,8 @@ mongoose
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
-    /**INSERT MOCK DATA (Do this only once)*/
-    // User.insertMany(users);
-    // Posts.insertMany(posts);
+    /**INSERT MOCK DATA (Do this only once): Already Done*/
+    //User.insertMany(users);
+    //Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect.`));
