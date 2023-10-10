@@ -19,7 +19,7 @@ const FriendListWidget = ({userId}) => {
 
     const getFriends = async () => {
         const response = await fetch(
-            `http://localhost:3001/users/${userId}/friends`,
+            `https://plant-haven-server.onrender.com/users/${userId}/friends`,
             {
                 method: "GET",
                 headers: {Authorization: `Bearer ${token}`},

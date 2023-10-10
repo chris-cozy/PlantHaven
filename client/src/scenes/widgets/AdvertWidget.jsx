@@ -17,7 +17,7 @@ const AdvertWidget = () => {
                 </Typography>
                 <Typography color={medium}>Create Ad</Typography>
             </FlexBetween>
-            <img width="100%" height="auto" alt="advert" src="http://localhost:3001/assets/advert.jpg" style={{borderRadius: "0.75rem", margin: "0.75rem 0"}} />
+            <img width="100%" height="auto" alt="advert" src={`https://plant-haven-server.onrender.com/assets/advert.jpg`} style={{borderRadius: "0.75rem", margin: "0.75rem 0"}} />
             <FlexBetween>
                 <Typography color={main}>Chex Mix</Typography>
                 <Typography color={medium}>chexmix.com</Typography>
