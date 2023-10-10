@@ -6,7 +6,7 @@ import * as yup from "yup"
 import {useNavigate} from "react-router-dom"
 import {useDispatch} from "react-redux"
 import {setLogin} from "../../state"
-import DropZone from "react-dropzone"
+import Dropzone from "react-dropzone"
 import FlexBetween from "../../components/FlexBetween"
 
 // Yup validation schema
@@ -108,7 +108,7 @@ const Form = () => {
                                 <TextField label="Location" onBlur={handleBlur} onChange={handleChange} value={values.location} name="location" error={Boolean(touched.location) && Boolean(errors.location)} helperText={touched.location && errors.location} sx={{gridColumn: "span 4"}}/>
                                 <TextField label="Occupation" onBlur={handleBlur} onChange={handleChange} value={values.occupation} name="occupation" error={Boolean(touched.occupation) && Boolean(errors.occupation)} helperText={touched.occupation && errors.occupation} sx={{gridColumn: "span 4"}}/>
                                 <Box gridColumn="span 4" border={`1px solid ${palette.neutral.medium}`} borderRadius="5px" p="1rem">
-                                    <DropZone acceptedFiles=".jpg,.jpeg,.png" multiple={false} onDrop={(acceptedFiles) => {
+                                    <Dropzone acceptedFiles=".jpg,.jpeg,.png" multiple={false} onDrop={(acceptedFiles) => {
                                         setFieldValue("picture", acceptedFiles[0])
                                     }}>
                                         {({getRootProps, getInputProps}) => (
@@ -120,7 +120,7 @@ const Form = () => {
                                                 </FlexBetween>)}
                                             </Box>
                                         )}
-                                    </DropZone>
+                                    </Dropzone>
 
                                 </Box>
                             </>
