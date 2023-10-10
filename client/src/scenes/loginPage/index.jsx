@@ -16,6 +16,12 @@ const LoginPage = () => {
             <Typography fontWeight="500" variant="h5" sx={{mb: "1.5rem"}}>
                 Welcome to Plant Haven - A safe place for plant lovers to connect
             </Typography>
+            <Typography fontWeight="300" variant="h5" sx={{mb: "1.5rem"}}>
+                Demo Credentials
+            </Typography>
+            <Typography fontWeight="300" variant="h5" sx={{mb: "1.5rem"}}>
+                Email: test@test.com | Password: 12345
+            </Typography>
             <Form />
         </Box>
     </Box>)
