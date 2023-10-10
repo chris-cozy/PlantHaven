@@ -7,15 +7,10 @@ import { setFriends } from "../../state"
 
 const FriendListWidget = ({userId}) => {
     const dispatch = useDispatch();
-    const theme = useTheme();
     const token = useSelector((state) => state.token)
     const friends = useSelector((state) => state.user.friends);
 
     const {palette} = useTheme();
-    const primaryLight = palette.primary.light;
-    const primaryDark = palette.primary.dark;
-    const main = palette.neutral.main;
-    const medium = palette.neutral.medium;
 
     const getFriends = async () => {
         const response = await fetch(
