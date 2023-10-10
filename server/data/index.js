@@ -334,7 +334,7 @@ export const posts = [
     location: "San Francisco, CA",
     description:
       "Just planted a new batch of roses in my garden. They are blooming beautifully!",
-    picturePath: "rose_garden.jpeg",
+    picturePath: "rose_garden.jpg",
     userPicturePath: "alice_profile.jpg",
     likes: new Map([
       [userIds[1], true],
@@ -353,7 +353,7 @@ export const posts = [
     location: "Chicago, IL",
     description:
       "Visited a botanical garden today and learned about rare orchid species. Fascinating stuff!",
-    picturePath: "orchid_garden.jpeg",
+    picturePath: "orchid_garden.jpg",
     userPicturePath: "david_profile.jpg",
     likes: new Map([
       [userIds[4], true],
@@ -372,7 +372,7 @@ export const posts = [
     location: "Austin, TX",
     description:
       "Spent the weekend revamping my indoor succulent garden. Added some new varieties!",
-    picturePath: "succulent_garden.jpeg",
+    picturePath: "succulent_garden.jpg",
     userPicturePath: "grace_profile.jpg",
     likes: new Map([
       [userIds[7], true],
@@ -390,7 +390,7 @@ export const posts = [
     lastName: "Irwin",
     location: "San Diego, CA",
     description: "Successfully propagated my favorite cactus. It's thriving!",
-    picturePath: "cactus_propagation.jpeg",
+    picturePath: "cactus_propagation.jpg",
     userPicturePath: "jack_profile.jpg",
     likes: new Map([
       [userIds[10], true],
@@ -409,7 +409,7 @@ export const posts = [
     location: "Houston, TX",
     description:
       "Visited a local plant market and got some rare fern species for my collection.",
-    picturePath: "fern_collection.jpeg",
+    picturePath: "fern_collection.jpg",
     userPicturePath: "katherine_profile.jpg",
     likes: new Map([
       [userIds[9], true],
@@ -428,7 +428,7 @@ export const posts = [
     location: "Phoenix, AZ",
     description:
       "Celebrating my monstera's first fruit! It's such a proud moment for me.",
-    picturePath: "monstera_fruit.jpeg",
+    picturePath: "monstera_fruit.jpg",
     userPicturePath: "liam_profile.jpg",
     likes: new Map([
       [userIds[9], true],
@@ -447,7 +447,7 @@ export const posts = [
     location: "Boston, MA",
     description:
       "Created a DIY hanging garden using recycled materials. Eco-friendly and beautiful!",
-    picturePath: "hanging_garden.jpeg",
+    picturePath: "hanging_garden.jpg",
     userPicturePath: "mia_profile.jpg",
     likes: new Map([
       [userIds[13], true],
@@ -466,7 +466,7 @@ export const posts = [
     location: "Atlanta, GA",
     description:
       "Visited a botanical garden and fell in love with exotic orchids. Nature's wonders!",
-    picturePath: "exotic_orchids.jpeg",
+    picturePath: "exotic_orchids.jpg",
     userPicturePath: "noah_profile.jpg",
     likes: new Map([
       [userIds[14], true],
@@ -485,7 +485,7 @@ export const posts = [
     location: "Dallas, TX",
     description:
       "Started a community garden project in my neighborhood. Growing together, blooming together!",
-    picturePath: "community_garden.jpeg",
+    picturePath: "community_garden.jpg",
     userPicturePath: "olivia_profile.jpg",
     likes: new Map([
       [userIds[13], true],
@@ -504,7 +504,7 @@ export const posts = [
     location: "San Antonio, TX",
     description:
       "Built a vertical garden on my balcony. Maximizing space and greenery!",
-    picturePath: "vertical_garden.jpeg",
+    picturePath: "vertical_garden.jpg",
     userPicturePath: "peter_profile.jpg",
     likes: new Map([
       [userIds[16], true],
@@ -523,7 +523,7 @@ export const posts = [
     location: "Minneapolis, MN",
     description:
       "Harvested my first batch of homegrown tomatoes. Fresh salsa, here I come!",
-    picturePath: "homegrown_tomatoes.jpeg",
+    picturePath: "homegrown_tomatoes.jpg",
     userPicturePath: "quinn_profile.jpg",
     likes: new Map([
       [userIds[15], true],
@@ -541,7 +541,7 @@ export const posts = [
     lastName: "Quinn",
     location: "Salt Lake City, UT",
     description: "Repotted my giant monstera. It's like moving a small tree!",
-    picturePath: "giant_monstera.jpeg",
+    picturePath: "giant_monstera.jpg",
     userPicturePath: "rachel_profile.jpg",
     likes: new Map([
       [userIds[18], true],
