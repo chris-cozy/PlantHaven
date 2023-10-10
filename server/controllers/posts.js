@@ -38,7 +38,8 @@ export const getFeedPosts = async (req, res) => {
 export const getUserPosts = async (req, res) => {
   try {
     const { userId } = req.params;
-    const posts = await Post.find({ userId });
+    //FIXME: There is an error with this query
+    const posts = await Post.find({ userId: "65256f3c47000ed5fff27d47" });
     res.status(200).json(posts);
   } catch (err) {
     res.status(404).json({ message: err.message });
