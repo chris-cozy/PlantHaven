@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import authReducer from "./state";
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 /** Only if using persist. Allows state to be stored locally in the cache. Example: If a user closes the browser and comes back, they will still be logged in */
 import {

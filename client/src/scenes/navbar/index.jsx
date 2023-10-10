@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Box, IconButton, InputBase, Typography, Select, MenuItem, FormControl, useTheme, useMediaQuery, Icon} from "@mui/material";
+import { Box, IconButton, InputBase, Typography, Select, MenuItem, FormControl, useTheme, useMediaQuery} from "@mui/material";
 // Material UI icons
 import { Search, Message, DarkMode, LightMode, Notifications, Help, Menu, Close} from "@mui/icons-material";
 import {useDispatch, useSelector} from "react-redux";
